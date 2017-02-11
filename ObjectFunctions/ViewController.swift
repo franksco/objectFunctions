@@ -66,8 +66,10 @@ class ViewController: UIViewController, UITextViewDelegate {
     
     @IBAction func setShadow(_ sender: Any) {
         
-
-        
+        label2.layer.shadowColor = UIColor.black.cgColor
+        label2.layer.shadowOffset = CGSize (width: 2, height: 2)
+        label2.layer.shadowRadius = 2
+        label2.layer.shadowOpacity = 0.25
     }
     
     @IBAction func shadowColor(_ sender: Any) {
