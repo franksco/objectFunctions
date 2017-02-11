@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D908CD781E4FAB30003208FE /* Luna.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D908CD771E4FAB30003208FE /* Luna.ttf */; };
+		D908CD7F1E4FB233003208FE /* JennaSue.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D908CD7E1E4FB233003208FE /* JennaSue.ttf */; };
+		D908CD811E4FB2BE003208FE /* Dry Brush.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D908CD801E4FB2BE003208FE /* Dry Brush.ttf */; };
 		D9D7F4E51E4E9F98008BA9A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7F4E41E4E9F98008BA9A2 /* AppDelegate.swift */; };
 		D9D7F4E71E4E9F98008BA9A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7F4E61E4E9F98008BA9A2 /* ViewController.swift */; };
 		D9D7F4EA1E4E9F98008BA9A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D7F4E81E4E9F98008BA9A2 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D908CD771E4FAB30003208FE /* Luna.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Luna.ttf; sourceTree = "<group>"; };
+		D908CD7E1E4FB233003208FE /* JennaSue.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = JennaSue.ttf; sourceTree = "<group>"; };
+		D908CD801E4FB2BE003208FE /* Dry Brush.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dry Brush.ttf"; sourceTree = "<group>"; };
 		D9D7F4E11E4E9F98008BA9A2 /* ObjectFunctions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectFunctions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D7F4E41E4E9F98008BA9A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9D7F4E61E4E9F98008BA9A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +66,9 @@
 				D9D7F4EB1E4E9F98008BA9A2 /* Assets.xcassets */,
 				D9D7F4ED1E4E9F98008BA9A2 /* LaunchScreen.storyboard */,
 				D9D7F4F01E4E9F98008BA9A2 /* Info.plist */,
+				D908CD7E1E4FB233003208FE /* JennaSue.ttf */,
+				D908CD771E4FAB30003208FE /* Luna.ttf */,
+				D908CD801E4FB2BE003208FE /* Dry Brush.ttf */,
 			);
 			path = ObjectFunctions;
 			sourceTree = "<group>";
@@ -124,8 +133,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9D7F4EF1E4E9F98008BA9A2 /* LaunchScreen.storyboard in Resources */,
+				D908CD811E4FB2BE003208FE /* Dry Brush.ttf in Resources */,
+				D908CD781E4FAB30003208FE /* Luna.ttf in Resources */,
 				D9D7F4EC1E4E9F98008BA9A2 /* Assets.xcassets in Resources */,
 				D9D7F4EA1E4E9F98008BA9A2 /* Main.storyboard in Resources */,
+				D908CD7F1E4FB233003208FE /* JennaSue.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +309,7 @@
 				D9D7F4F51E4E9F98008BA9A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

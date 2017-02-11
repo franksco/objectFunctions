@@ -103,6 +103,24 @@ class ViewController: UIViewController, UITextViewDelegate {
         
     }
     
+    @IBAction func custom1(_ sender: AnyObject) {
+        
+        label2.font = UIFont(name: "JennaSue", size: 30)
+        
+    }
+    
+    @IBAction func custom2(_ sender: AnyObject) {
+        
+        label2.font = UIFont(name: "Luna", size: 30)
+        
+    }
+    
+    
+    @IBAction func custom3(_ sender: AnyObject) {
+        
+        label2.font = UIFont(name: "Dry Brush", size: 30)
+        
+    }
     
 }
 
