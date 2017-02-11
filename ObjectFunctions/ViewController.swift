@@ -74,31 +74,32 @@ class ViewController: UIViewController, UITextViewDelegate {
     
     @IBAction func shadowColor(_ sender: Any) {
         
-        
+        label2.layer.shadowColor = UIColor.blue.cgColor
         
     }
     
     @IBAction func fontSize(_ sender: Any) {
         
-        
+        label2.font = UIFont(name: "Verdana", size: 30)
         
     }
     
     @IBAction func center(_ sender: Any) {
         
-        
+        label2.textAlignment = NSTextAlignment.center
         
     }
     
     @IBAction func left(_ sender: Any) {
         
-        
+        label2.textAlignment = NSTextAlignment.left
         
     }
     
     @IBAction func right(_ sender: Any) {
         
-        
+        label2.textAlignment = NSTextAlignment.right
+
         
     }
     
