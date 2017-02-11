@@ -13,7 +13,7 @@ class ViewController: UIViewController, UITextViewDelegate {
     @IBOutlet var label: UILabel!
     @IBOutlet var textView: UITextView!
     @IBOutlet var textField: UITextField!
-    
+    @IBOutlet var label2: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,6 +50,56 @@ class ViewController: UIViewController, UITextViewDelegate {
         return true
         
     }
+    
+    
+    @IBAction func setColor(_ sender: Any) {
+        
+        label2.textColor = UIColor.red
+        
+    }
 
+    @IBAction func setBackground(_ sender: Any) {
+        
+        label2.backgroundColor = UIColor.lightGray
+        
+    }
+    
+    @IBAction func setShadow(_ sender: Any) {
+        
+
+        
+    }
+    
+    @IBAction func shadowColor(_ sender: Any) {
+        
+        
+        
+    }
+    
+    @IBAction func fontSize(_ sender: Any) {
+        
+        
+        
+    }
+    
+    @IBAction func center(_ sender: Any) {
+        
+        
+        
+    }
+    
+    @IBAction func left(_ sender: Any) {
+        
+        
+        
+    }
+    
+    @IBAction func right(_ sender: Any) {
+        
+        
+        
+    }
+    
+    
 }
 
